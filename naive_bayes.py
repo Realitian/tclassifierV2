@@ -1,8 +1,8 @@
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfTransformer
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
 
 def train_and_predict(X_train, X_test, y_train, y_test, tags):
